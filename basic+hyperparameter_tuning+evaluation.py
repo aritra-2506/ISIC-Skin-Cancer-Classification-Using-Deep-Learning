@@ -63,6 +63,8 @@ def create_model(optimizer='adam', activation='relu', dropout_rate=0.0):
     model.add(layers.Dense(9, activation='softmax'))
     model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
     return model
+
+#Grid Search
 model = KerasClassifier(build_fn=create_model, verbose=0)
 batch_size = [100, 500, 1000]
 epochs = [5, 10, 20, 50]
