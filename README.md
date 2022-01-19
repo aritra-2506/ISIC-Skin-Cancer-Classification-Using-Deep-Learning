@@ -4,15 +4,16 @@ Uses ISIC Dataset - RGB images and imbalanced dataset and loading data from dire
 
 The goal for ISIC 2019 is classify dermoscopic images among nine different diagnostic categories:
 
-Melanoma
-Melanocytic nevus
-Basal cell carcinoma
-Actinic keratosis
-Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)
-Dermatofibroma
-Vascular lesion
-Squamous cell carcinoma
-None of the others
+1. Melanoma
+2. Melanocytic nevus
+3. Basal cell carcinoma
+4. Actinic keratosis
+5. Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)
+6. Dermatofibroma
+7. Vascular lesion
+8. Squamous cell carcinoma
+9. None of the others
+
 25,331 images are available for training across 8 different categories. Additionally, the test dataset (planned release August 2nd) will contain an additional outlier class not represented in the training data, which developed systems must be able to identify. 
 
 But for the sake of training in low resource system, only 6000 images were considered.
